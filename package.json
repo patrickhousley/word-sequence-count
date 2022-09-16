@@ -8,7 +8,10 @@
     "start": "ts-node src/index.ts",
     "build": "tsc",
     "lint": "eslint",
-    "test": "jest --silent"
+    "test": "jest --silent",
+    "profile": "clinic doctor -- node bin/cli.js resources/mobydick.txt",
+    "flame": "clinic flame -- node bin/cli.js resources/mobydick.txt",
+    "benchmark": "node benchmark.js"
   },
   "author": "Patrick Freeman Housley",
   "license": "ISC",
@@ -17,6 +20,7 @@
     "@types/jest": "^29.0.3",
     "@types/node": "^16.11.59",
     "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "clinic": "^12.0.0",
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
