@@ -1,0 +1,7 @@
+.clinic/
+coverage/
+dist/
+node_modules/
+resources/
+LICENSE
+package-lock.json
